@@ -1,0 +1,9 @@
+.menu-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-list a, a:hover{
+  text-decoration: none;
+  color: #6d757d;
+}

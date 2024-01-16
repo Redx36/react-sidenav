@@ -1,0 +1,21 @@
+.App {
+  min-width: 100vh;
+  min-height: 100vh;
+}
+
+
+.left-side {
+  background-color: rgb(247, 248, 249);
+  border-right: 1px solid rgb(232, 233, 234);
+  padding: 5px;
+  position: sticky;
+}
+
+.right-side {
+  background: #F0F2F5;
+  padding: 0;
+}
+
+.main-content {
+  padding: 10px;
+}
