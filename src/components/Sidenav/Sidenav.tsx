@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {Link, Route, Routes} from "react-router-dom";
+// import {Link, Route, Routes} from "react-router-dom";
+import {Link} from "react-router-dom";
 import './Sidenav.scss';
 
 export class Sidenav extends Component {
@@ -13,6 +14,7 @@ export class Sidenav extends Component {
                    <Link to={"/"}>Dashboard</Link>
                    <Link to={"/users"}>Users</Link>
                    <Link to={"/stores"}>Magasins</Link>
+                   <Link to={"/components"}>Components</Link>
                 </div>
             </div>
         )

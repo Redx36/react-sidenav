@@ -3,7 +3,12 @@ import React, {Component} from 'react';
 export class Dashboard extends Component {
     render() {
         return (
-            <div>Dashboard</div>
+            <div>
+                <div>Dashboard</div>
+                <h1 className="text-5xl">
+                    Hello world!
+                </h1>
+            </div>
         )
     }
 }
